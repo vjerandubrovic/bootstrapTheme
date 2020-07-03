@@ -1,0 +1,169 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrap{
+    border: 2px solid red;
+}
+
+.wrap1{
+    border: 2px solid blue;
+}
+
+/*HEADER*/
+
+#menu{
+    
+    font-size: 13px;
+    font-weight: bold;
+    height:90px;
+}
+
+.odvoji{
+    border-left: 1px solid #c7c7c7;
+}
+
+/* SLIDER */
+
+#btn{
+    font-size:13px;
+    font-weight: bold;
+    background-color:#ff6403;
+    
+}
+
+.btn-text{
+    font-size:12px;
+}
+
+.btnS1{
+    background-color:#ff6403;
+    width:18%;
+}
+
+.carousel-caption {
+    top: 100px;
+    bottom: auto;
+}
+
+#slika{
+    display:block;
+}
+
+#carouselExampleControls{
+    background-color:gray;
+}
+
+/* WELCOME */
+
+.section1 .fas, .section2 .fas{
+    background:#ff6403;
+    font-size:25px;
+    padding:4px;
+    color:#fff;
+    border-radius: 16px;
+}
+
+.section1 p{
+    width:80%;
+    text-align:right;
+}
+
+.section2 p{
+    margin-left:15%;
+}
+
+
+.articlee h3{
+    font-weight: bold;
+}
+
+.section1 article:last-of-type h3{
+    margin-left:39%;
+}
+
+.section1, .section2{
+    margin-top:100px;
+}
+
+.section2 article:first-of-type h3{
+    margin-left:5%;
+}
+
+#title h2{
+    font-size:30px;
+    text-align: center;
+    font-weight:bold;
+    margin-top:50px;
+}
+
+
+
+/* PARTNERS */
+
+#carouselExampleControls{
+    height:90px;
+    background:#c7c7c7;
+}
+
+.partner{
+    width:12%;
+    height:40px;
+    margin:25px 2.2%;
+}
+
+/* EVENT */
+
+.events{
+    margin-top:50px;
+}
+
+.events h2{
+    font-weight:bold;
+}
+
+.sirina{
+width:45%;
+}
+
+/* FOOTER */
+
+#footer{
+    margin-top:50px;
+    height:400px;
+    background:#000 url("../img/wallpaper.jpg") no-repeat center center/cover;
+
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media (min-width:1024px){
+	
+}
+
+/*uređaji manji od 1024px*/
+@media (max-width:1023px){
+	
+	/* CSS pravila */
+
+
+	
+}
+
+/*uređaji manji od 768px (obje orijentacije)*/
+@media (max-width:767px){
+	
+	/* CSS pravila */
+
+	
+}
+
+/*uređaji manji od 480px (portrait)*/
+@media (max-width:479px){
+	
+	/* CSS pravila */
+
+	
+}
